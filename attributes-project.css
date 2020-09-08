@@ -32,6 +32,7 @@ p.more {
 
 /* Write your CSS here. */
 /* background: linear-gradient(color1 perc, color2 perc) */
+
 * {
   font-family: "Helvetica", sans-serif;
   background-color: #F5F5F5;
@@ -47,4 +48,11 @@ ul{
 }
 ul > li{
   list-style: none;
+}
+
+a:hover,
+a:visited,
+a > span:hover,
+a > span:visited {
+  color: purple;
 }
