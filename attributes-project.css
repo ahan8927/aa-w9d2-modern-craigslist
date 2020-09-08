@@ -48,6 +48,7 @@ ul{
 }
 ul > li{
   list-style: none;
+  
 }
 
 a:hover,
@@ -96,4 +97,19 @@ footer {
 
 #topban h2{
   text-align: center;
+}
+
+ul.clfooter{
+  text-align: center;
+  border-top: 1px solid gray;
+  padding: 10px 0px;
+}
+
+ul.clfooter > li{
+  display: inline;
+  padding-right: 5px;
+}
+
+h4.ban::before{
+  content: "☮️";
 }
